@@ -1,0 +1,58 @@
+{
+    "card": [
+        {
+            "cardName": "Drowned Hero",
+            "imgUrl": "https://i.ibb.co/x7bqKp1/Hero-Drowned.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "cosmos",
+            "isSpecial": true,
+            "faction": "drowned",
+            "dropChance": 1
+        },
+        {
+            "cardName": "Drowned Home",
+            "imgUrl": "https://i.ibb.co/7VkVCdG/Home-Drowned.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "radiant",
+            "isSpecial": false,
+            "faction": "drowned",
+            "dropChance": 1
+        },
+        {
+            "cardName": "Nassau Hero",
+            "imgUrl": "https://i.ibb.co/cFRtSHP/Hero-Nassau.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "rainbow",
+            "isSpecial": true,
+            "faction": "nassau",
+            "dropChance": 1
+        },
+        {
+            "cardName": "Nassau Home",
+            "imgUrl": "https://i.ibb.co/ZB4MmkR/Home-Nassau.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "regular",
+            "isSpecial": false,
+            "faction": "nassau",
+            "dropChance": 1
+        },
+        {
+            "cardName": "Eternal Hero",
+            "imgUrl": "https://i.ibb.co/7gjrmtW/Hero-Eternal.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "reverse",
+            "isSpecial": true,
+            "faction": "eternal",
+            "dropChance": 1
+        },
+        {
+            "cardName": "Eternal Home",
+            "imgUrl": "https://i.ibb.co/K6n0pjv/Home-Eternal.jpg",
+            "backImageUrl": "https://i.ibb.co/5n0qWrr/Back-Eternal.jpg",
+            "holoStyle": "regular",
+            "isSpecial": false,
+            "faction": "eternal",
+            "dropChance": 1
+        }
+    ]
+}
