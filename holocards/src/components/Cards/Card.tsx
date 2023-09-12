@@ -37,7 +37,7 @@ const Card = ({ onFrontImage, onBackImage, holoStyle }: CardProps) => {
 
   return (
     <div
-      className={`card ${isActive ? "active" : ""} ${isClicked ? "clicked" : ""} ${holoStyle}`}
+      className={`card ${isActive ? "active" : ""} ${isClicked ? "clicked" : ""} ${holoStyle} animated card__shine`}
       style={cardStyle}
       onMouseMove={handleCardMove}
       onTouchMove={handleCardMove}

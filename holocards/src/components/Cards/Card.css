@@ -163,7 +163,7 @@ viewport height (vh), and pixel units to create responsive sizing. It also defin
     transition: transform 0.5s ease, box-shadow 0.2s ease;
     will-change: transform, filter;
     background-color: #040712;
-    background-image: var(--front);
+    background-image: url("https: //i.ibb.co/5n0qWrr/Back-Eternal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -266,79 +266,6 @@ viewport height (vh), and pixel units to create responsive sizing. It also defin
     animation: holoSparkle 12s ease 0s 1;
 }
 
-
-.demo .card {
-    background-image: var(--back);
-    font-size: 2vh
-}
-
-.demo .card>span {
-    position: relative;
-    top: 45%;
-}
-
-.demo .card:nth-of-type(1),
-.demo .card:nth-of-type(2),
-.demo .card:nth-of-type(3) {
-    width: 20vh;
-    height: 27.5vh;
-    box-shadow: inset 0 0 0 1px rgba(white, 0.4), 0 25px 15px -10px rgba(0, 0, 0, 0.5);
-    animation: none;
-}
-
-.demo .card:nth-of-type(1)::before,
-.demo .card:nth-of-type(1)::after,
-.demo .card:nth-of-type(2)::before,
-.demo .card:nth-of-type(2)::after,
-.demo .card:nth-of-type(3)::before,
-.demo .card:nth-of-type(3)::after {
-    animation: none;
-    opacity: 1;
-}
-
-.demo .card:nth-of-type(1)::before,
-.demo .card:nth-of-type(1)::after {
-    display: none;
-}
-
-.demo .card:nth-of-type(2) {
-    background: none;
-}
-
-.demo .card:nth-of-type(2)::before {
-    display: none;
-}
-
-.demo .card:nth-of-type(3) {
-    background: none;
-}
-
-.demo .card:nth-of-type(3)::after {
-    display: none;
-}
-
-.operator {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 6vh;
-}
-
-.demo,
-.cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    perspective: 2000px;
-    position: relative;
-    z-index: 1;
-    transform: translate3d(0.1px, 0.1px, 0.1px);
-}
-
-.demo {
-    flex-direction: row;
-    justify-content: center;
-}
 
 @media screen and (min-width: 600px) {
     .cards {
