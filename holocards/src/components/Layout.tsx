@@ -3,9 +3,13 @@ import Navbar from './Navbar';
 
 const Layout = ({ children }: any) => {
     return (
-        <div>
-            <Navbar />
-            {children}
+        <div className='layout'>
+            <div className='layout_navbar'>
+                <Navbar />
+            </div>
+            <div className='layout_child'>
+                {children}
+            </div>
         </div>
     );
 }

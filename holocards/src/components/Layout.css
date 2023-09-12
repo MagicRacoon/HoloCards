@@ -1,0 +1,15 @@
+.layout {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.layout_navbar {
+   display: flex;
+   height: auto;
+}
+
+.layout_child {
+   display: flex;
+   height: auto;
+}
